@@ -101,6 +101,6 @@ def output(request):
 'my_templates'
 
 ```
-![](settings_DIR.PNG)
+![](settings_DIRS.PNG)
 
 ### step 10: 
