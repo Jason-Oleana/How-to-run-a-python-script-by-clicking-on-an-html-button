@@ -27,3 +27,23 @@ cd geniusvoice
 ## Checkpoint: step 1-4
 
 ![](anaconda_prompt.PNG)
+
+
+### step 5: create a folder called "my_templates"
+```
+mkdir my_templates
+```
+
+### step 6: create a file called "geniusvoice.html" in "my_templates" folder
+```
+cd. > my_templates/geniusvoice.html
+```
+
+### step 7: create a file called "webapp.py" in "geniusvoice" folder
+```
+cd. > geniusvoice/geniusvoice.html
+```
+
+## Checkpoint: step 5-7
+
+![](anaconda_prompt_2.PNG)
