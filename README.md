@@ -48,9 +48,9 @@ cd. > geniusvoice/geniusvoice.html
 
 ![](anaconda_prompt_2.PNG)
 
-### Copy and paste this code in urls.py. 
+### step 8: Copy and paste this code in urls.py. 
 
-NOTE: make sure to replace the existing code with this code in urls.py
+NOTE: make sure to replace the existing code in urls.py
 
 ```
 """geniusvoice URL Configuration
@@ -78,3 +78,21 @@ urlpatterns = [
     url(r'^output', webapp.output,name="script"),
 ]
 ```
+### step 8: Copy and paste this code in webapp.py. 
+
+```
+from django.shortcuts import render
+
+def button(request):
+
+    return render(request,'geniusvoice.html')
+
+def output(request):
+
+    output_data = "hello world"
+    
+    return render(request,"geniusvoice.html",{"output_data":output_data})
+    
+```
+
+### step 9: Copy and paste this code in settings.py
