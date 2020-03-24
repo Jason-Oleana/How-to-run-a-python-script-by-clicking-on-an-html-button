@@ -103,4 +103,17 @@ def output(request):
 ```
 ![](settings_DIRS.PNG)
 
-### step 10: 
+### step 10: Open your prompt window and run this code:
+
+```
+python manage.py migrate
+
+```
+![](anaconda_prompt_4.PNG)
+### step 11: Run this code in your prompt window:
+
+```
+python manage.py runserver
+
+```
+![](anaconda_prompt_5.PNG)
