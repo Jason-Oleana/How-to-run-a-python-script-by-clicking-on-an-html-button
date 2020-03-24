@@ -26,4 +26,4 @@ cd geniusvoice
 
 ## Checkpoint: step 1-4
 
-![](anaconda_prompt.png)
+![](anaconda_prompt.PNG)
