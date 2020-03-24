@@ -8,7 +8,7 @@ django
 pip install django
 ```
 
-### step 2: Open your prompt window and create a directory called "django-webapp
+### step 2: Open your prompt window and create a directory called "django-webapp"
 ```
 mkdir django-webapp
 ```
