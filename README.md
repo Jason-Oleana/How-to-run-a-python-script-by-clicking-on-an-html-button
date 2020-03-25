@@ -95,7 +95,24 @@ def output(request):
     
 ```
 
-### step 9: Open settings.py, scroll down to "TEMPLATES" and paste 'my_templates' in the empty list
+### step 9: Copy and paste this code in geniusvoice.html. 
+```
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Genius Voice script
+        </title>
+    </head>
+    <body>
+        <button onclick="location.href='{% url 'script' %}'">Click To Execute Script</button> <hr>
+        {{output_data}}
+    </body>
+</html>
+```
+
+### step 10: Open settings.py, scroll down to "TEMPLATES" and paste 'my_templates' in the empty list
 
 ```
 'my_templates'
@@ -103,17 +120,20 @@ def output(request):
 ```
 ![](settings_DIRS.PNG)
 
-### step 10: Open your prompt window and run this code:
+### step 11: Open your prompt window and run this code:
 
 ```
 python manage.py migrate
 
 ```
 ![](anaconda_prompt_4.PNG)
-### step 11: Run this code in your prompt window:
+### step 12: Run this code in your prompt window:
 
 ```
 python manage.py runserver
 Copy and paste http://127.0.0.1:8000/ in your browser
 ```
 ![](anaconda_prompt_5.PNG)
+
+### step 13: Click on "Click To Execute Script"
+
