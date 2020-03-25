@@ -138,3 +138,4 @@ Copy and paste http://127.0.0.1:8000/ in your browser
 
 ### step 13: Click on "Click To Execute Script"
 
+![](click_button.PNG)
