@@ -114,6 +114,6 @@ python manage.py migrate
 
 ```
 python manage.py runserver
-
+Copy and paste http://127.0.0.1:8000/ in your browser
 ```
 ![](anaconda_prompt_5.PNG)
