@@ -1,4 +1,4 @@
-# How to click html button and run python script from a webpage
+# How to run s python script by clicking on an html button
 
 ## requirements 
 django
